@@ -1,0 +1,15 @@
+.list_style{
+    font-family: Open Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+
+height: 13px;
+
+
+}
+ul{
+    list-style: disc;
+    font-size: 22px;
+}

@@ -1,0 +1,98 @@
+.public-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content-section {
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-section {
+    margin-right: 20px; /* Space between icon and card */
+  }
+  
+  .card23 {
+    background-color: #fcfcfc;
+    width: 100%;
+    border: 1px solid rgb(236, 230, 230);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .priority-icon {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .ttll {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .chck {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .task-list {
+    max-height: 200px; /* Adjust max-height for scrollbar */
+    overflow-y: auto;
+    margin-bottom: 15px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .task-text {
+    flex: 1;
+  }
+  
+  .due-date-section {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .due-date-label {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .due-date {
+    min-width: 50px; /* Adjust width as needed */
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #cf3636;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+  }
+  
