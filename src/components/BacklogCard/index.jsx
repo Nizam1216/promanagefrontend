@@ -110,7 +110,7 @@ const BacklogCard = ({ data, title, add, onNoteUpdate }) => {
   };
 
   const handleShareClick = (noteId) => {
-    const shareURL = `${window.location.origin}/public/${noteId}`;
+    const shareURL = `${https://promanagefrontend-theta.vercel.app}/public/${noteId}`;
     navigator.clipboard
       .writeText(shareURL)
       .then(() => {
